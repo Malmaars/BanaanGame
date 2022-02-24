@@ -6,30 +6,35 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public PlayerMovement player;
-    public Transform playerP, playerO, groundCheck;
+
+    [Header("Non Customizable Player values")]
+    public Transform playerP;
+    public Transform playerO;
+    public Transform groundCheck;
     public CinemachineFreeLook playerCam;
-    public ParticleSystem frogChargingPart, frogLevelPart2, frogLevelPart3;
-    public float playerMoveSpeed, playerJumpForce;
+    public List<ParticleSystem> frogParticleSystems;
+
+    //[Header("Customizable Player Values")]
 
 
-    List<GameObject> swingAbleObjects;
+    //List<GameObject> swingAbleObjects;
     // Start is called before the first frame update
     void Start()
     {
-        player = new PlayerMovement(playerP,playerO, groundCheck, playerCam, frogChargingPart, frogLevelPart2, frogLevelPart3, playerMoveSpeed, playerJumpForce);
+        player = new PlayerMovement(playerP,playerO, groundCheck, playerCam, frogParticleSystems);
         player.Initialize();
         ObjectStats[] allObjects = FindObjectsOfType<ObjectStats>();
 
-        swingAbleObjects = new List<GameObject>();
-        foreach(ObjectStats stats in allObjects)
-        {
-            if (stats.swingable)
-            {
-                swingAbleObjects.Add(stats.gameObject);
-            }
-        }
+        //swingAbleObjects = new List<GameObject>();
+        //foreach(ObjectStats stats in allObjects)
+        //{
+        //    if (stats.swingable)
+        //    {
+        //        swingAbleObjects.Add(stats.gameObject);
+        //    }
+        //}
 
-        player.UpdateVariables(swingAbleObjects);
+       // player.UpdateVariables(swingAbleObjects);
     }
 
     // Update is called once per frame
