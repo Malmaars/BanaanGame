@@ -15,11 +15,11 @@ C:/Users/lisax/Desktop/Project Context II Substainability Game/BanaanGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52001
+53575
 Successfully changed project path to: C:/Users/lisax/Desktop/Project Context II Substainability Game/BanaanGame
 C:/Users/lisax/Desktop/Project Context II Substainability Game/BanaanGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 64.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 28.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.23f1 (c5d91304a876)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004448 seconds.
+Registered in 0.001603 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 81.10 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 26.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.319 seconds
+- Completed reload, in  0.491 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1319ms)
-		BeginReloadAssembly (139ms)
+	ReloadAssembly (491ms)
+		BeginReloadAssembly (44ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1020ms)
-			LoadAssemblies (133ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (383ms)
+			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (323ms)
+			SetupTypeCache (132ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (385ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (144ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (81ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (191ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (26ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010814 seconds.
+Registered in 0.003666 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.257 seconds
+- Completed reload, in  0.822 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2259ms)
-		BeginReloadAssembly (305ms)
+	ReloadAssembly (823ms)
+		BeginReloadAssembly (118ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1807ms)
-			LoadAssemblies (193ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (655ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (621ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (90ms)
-			SetupLoadedEditorAssemblies (681ms)
+			SetupTypeCache (227ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (252ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (198ms)
-				ProcessInitializeOnLoadAttributes (435ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1498 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.4 MB.
-System memory in use after: 67.5 MB.
+System memory in use before: 67.5 MB.
+System memory in use after: 67.6 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1930.
-Total: 6.771100 ms (FindLiveObjects: 0.498100 ms CreateObjectMapping: 0.091500 ms MarkObjects: 5.898700 ms  DeleteObjects: 0.280700 ms)
+Total: 2.217100 ms (FindLiveObjects: 0.163400 ms CreateObjectMapping: 0.063200 ms MarkObjects: 1.942400 ms  DeleteObjects: 0.047200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,177 +132,40 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/textures/cup.mat
-  artifactKey: Guid(85f897788beafb64e8204c7c38e87756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/cup.mat using Guid(85f897788beafb64e8204c7c38e87756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e583f8660aaa76da61bfe07ccace21') in 0.756107 seconds 
-  Import took 0.760844 seconds .
+  path: Assets/textures/greenhouse innards_potten_Normal.png
+  artifactKey: Guid(53ca3a2f0f01eb74291b5c9771a5076d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/greenhouse innards_potten_Normal.png using Guid(53ca3a2f0f01eb74291b5c9771a5076d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f66bc88ee70707638ee59f07666bf8c') in 0.073856 seconds 
+  Import took 0.075846 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1587.366433 seconds.
-  path: Assets/models/flower lantaarnpaal.fbx
-  artifactKey: Guid(156c94d6c7ca1ee419c3eff6dd8a4f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/flower lantaarnpaal.fbx using Guid(156c94d6c7ca1ee419c3eff6dd8a4f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94537f0bc310536581108b6aec9aa95') in 0.150991 seconds 
-  Import took 0.156568 seconds .
+  Time since last request: 10.421356 seconds.
+  path: Assets/textures/tafel.mat
+  artifactKey: Guid(a661bde0e7e7d164587f7689b1446c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/tafel.mat using Guid(a661bde0e7e7d164587f7689b1446c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b1d31f5ae574460a627fd1796a7ae1') in 0.040390 seconds 
+  Import took 0.042776 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 45.699611 seconds.
-  path: Assets/textures/lilypad dripper_pCylinder1_Normal.png
-  artifactKey: Guid(52f6d2735018d3644a8016237f9eb6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/lilypad dripper_pCylinder1_Normal.png using Guid(52f6d2735018d3644a8016237f9eb6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10744a05eb6428bc4b0dfb8c21280577') in 0.070588 seconds 
-  Import took 0.075572 seconds .
+  Time since last request: 8.574153 seconds.
+  path: Assets/textures/greenhouse innards_tafel_Normal.png
+  artifactKey: Guid(1360fb6a43f58864e81a2e860c9ac5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/greenhouse innards_tafel_Normal.png using Guid(1360fb6a43f58864e81a2e860c9ac5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e14e172c44b8cb24a467bab9f17409f') in 0.009595 seconds 
+  Import took 0.011762 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 34.168285 seconds.
-  path: Assets/textures/stem.mat
-  artifactKey: Guid(1bbb63c487623a44b9280392bcc3dfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/stem.mat using Guid(1bbb63c487623a44b9280392bcc3dfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63497614668dde7bfaa8f3f10c7355cf') in 0.030212 seconds 
-  Import took 0.036312 seconds .
+  Time since last request: 262.271024 seconds.
+  path: Assets/textures/potten.mat
+  artifactKey: Guid(bfc95ecb25431f848a0636ca23b1c0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/potten.mat using Guid(bfc95ecb25431f848a0636ca23b1c0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef578bc3d871b932e69db958e306bc10') in 0.023010 seconds 
+  Import took 0.025571 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.744175 seconds.
-  path: Assets/textures/blad.mat
-  artifactKey: Guid(f71731e819e283845a4280b48e8a1178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/blad.mat using Guid(f71731e819e283845a4280b48e8a1178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb78bdbb584528f9ac277bf3561a53d') in 0.052756 seconds 
-  Import took 0.057778 seconds .
+  Time since last request: 0.000131 seconds.
+  path: Assets/textures/tafel.mat
+  artifactKey: Guid(a661bde0e7e7d164587f7689b1446c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/tafel.mat using Guid(a661bde0e7e7d164587f7689b1446c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241a3b2bed89261a4e6d306d0d7a2b5b') in 0.018466 seconds 
+  Import took 0.020813 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 10.422178 seconds.
-  path: Assets/textures/lilypad dripper_pCylinder2_Normal.png
-  artifactKey: Guid(c126988ec9676e74280df8a6aff9f826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/lilypad dripper_pCylinder2_Normal.png using Guid(c126988ec9676e74280df8a6aff9f826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e140c7c253b79cafe7918f04c23f8b25') in 0.022547 seconds 
-  Import took 0.027814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.520587 seconds.
-  path: Assets/textures/flower lantaarnpaal.mat
-  artifactKey: Guid(497cd28e1f153f044a59c094fc63c8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/flower lantaarnpaal.mat using Guid(497cd28e1f153f044a59c094fc63c8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3069b4ca5ed683f78b5d5cacf73e3cbd') in 0.023852 seconds 
-  Import took 0.030311 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.130600 seconds.
-  path: Assets/textures/flower lantaarnpaal_lamp_BaseMap.png
-  artifactKey: Guid(713e6ea86ee83324f8af0fa60ae33fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/flower lantaarnpaal_lamp_BaseMap.png using Guid(713e6ea86ee83324f8af0fa60ae33fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9707be21544116f320e6622b8d2fa6a') in 0.029037 seconds 
-  Import took 0.033484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/textures/flower lantaarnpaal_polySurface4_Normal.png
-  artifactKey: Guid(0b20d3c315e29e0478a93492365d1be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/flower lantaarnpaal_polySurface4_Normal.png using Guid(0b20d3c315e29e0478a93492365d1be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7fbfce8b8a61d95926cdcb450201999') in 0.023668 seconds 
-  Import took 0.029552 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/textures/flower lantaarnpaal_polySurface4_BaseMap.png
-  artifactKey: Guid(e8fca1743b56275498ea713112ca5bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/flower lantaarnpaal_polySurface4_BaseMap.png using Guid(e8fca1743b56275498ea713112ca5bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34971e14c73141364d5127595add6b1b') in 0.019515 seconds 
-  Import took 0.023316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000489 seconds.
-  path: Assets/textures/flower lantaarnpaal_lamp_MaskMap.png
-  artifactKey: Guid(464e144571dad2947b4bba180481804b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/flower lantaarnpaal_lamp_MaskMap.png using Guid(464e144571dad2947b4bba180481804b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a8345d9dc962911b991149f279ce79') in 0.020060 seconds 
-  Import took 0.024618 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/textures/flower lantaarnpaal_lamp_Normal.png
-  artifactKey: Guid(249a597c299026741b42c2d575f61f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/flower lantaarnpaal_lamp_Normal.png using Guid(249a597c299026741b42c2d575f61f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bea28c54c74eb52ba2e2e7311ea407a') in 0.020575 seconds 
-  Import took 0.024755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/textures/flower lantaarnpaal_polySurface4_MaskMap.png
-  artifactKey: Guid(070e810c5f8847443b15a2efb6e7dc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/flower lantaarnpaal_polySurface4_MaskMap.png using Guid(070e810c5f8847443b15a2efb6e7dc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539c6637b643b083c8ac85ab67b063ce') in 0.026905 seconds 
-  Import took 0.034264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.693726 seconds.
-  path: Assets/textures/lamp.mat
-  artifactKey: Guid(60aed4240c97d5d40945dbaaba71661f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/lamp.mat using Guid(60aed4240c97d5d40945dbaaba71661f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56a045b891368b144e02360875bb3f6') in 0.028418 seconds 
-  Import took 0.034633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.740865 seconds.
-  path: Assets/textures/flower lantaarnpaal_lamp_Normal.png
-  artifactKey: Guid(249a597c299026741b42c2d575f61f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/flower lantaarnpaal_lamp_Normal.png using Guid(249a597c299026741b42c2d575f61f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec106d3744079d603478b7c50c71c3d4') in 0.026308 seconds 
-  Import took 0.032642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 102.114018 seconds.
-  path: Assets/textures/flower lantaarnpaal.mat
-  artifactKey: Guid(497cd28e1f153f044a59c094fc63c8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/flower lantaarnpaal.mat using Guid(497cd28e1f153f044a59c094fc63c8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee4f4fefd85d31e858c926950379a94') in 0.036836 seconds 
-  Import took 0.042121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000545 seconds.
-  path: Assets/textures/stem.mat
-  artifactKey: Guid(1bbb63c487623a44b9280392bcc3dfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/stem.mat using Guid(1bbb63c487623a44b9280392bcc3dfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1113c51f36052a9129d6f1c6494496b') in 0.039330 seconds 
-  Import took 0.044427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/textures/lamp.mat
-  artifactKey: Guid(60aed4240c97d5d40945dbaaba71661f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/lamp.mat using Guid(60aed4240c97d5d40945dbaaba71661f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82cc4bdce6f24117eb9cc1c85ec6952') in 0.048207 seconds 
-  Import took 0.052460 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.562617 seconds.
-  path: Assets/textures/flower lantaarnpaal_polySurface4_Normal.png
-  artifactKey: Guid(0b20d3c315e29e0478a93492365d1be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/flower lantaarnpaal_polySurface4_Normal.png using Guid(0b20d3c315e29e0478a93492365d1be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be95f700fb1bde6ccbe074d8b7b37163') in 0.024448 seconds 
-  Import took 0.030335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.008585 seconds.
-  path: Assets/textures/glass.mat
-  artifactKey: Guid(85f897788beafb64e8204c7c38e87756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/glass.mat using Guid(85f897788beafb64e8204c7c38e87756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c91185df713124a801077b57031bdb2') in 0.025120 seconds 
-  Import took 0.029154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.739286 seconds.
-  path: Assets/textures/metalic.png
-  artifactKey: Guid(628d24ed59a47c949a80639b83259f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/metalic.png using Guid(628d24ed59a47c949a80639b83259f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577cda3b9dbe6992c11e06dec740cba7') in 0.020067 seconds 
-  Import took 0.024570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.157864 seconds.
-  path: Assets/textures/normal.png
-  artifactKey: Guid(e8c8d2ec5d78a0442866933ab76ee28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/normal.png using Guid(e8c8d2ec5d78a0442866933ab76ee28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09377f02c6d6ad8c3060cb96c0eb27a4') in 0.023248 seconds 
-  Import took 0.027777 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
