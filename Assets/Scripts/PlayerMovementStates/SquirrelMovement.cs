@@ -6,9 +6,7 @@ public class SquirrelMovement : MovementState
 {
     bool gliding;
 
-    Vector3 drag;
-    Vector3 previousPos;
-    Vector3 newPos;
+    Vector3 savedVelocity;
 
     public SquirrelMovement(Transform playerTransform, Transform playerObject, Animator playerAnimator, Transform groundCheckTransform, Vector3 velocity) : base(playerTransform, playerObject, playerAnimator, groundCheckTransform, velocity)
     {
@@ -28,10 +26,14 @@ public class SquirrelMovement : MovementState
 
         else
         {
+            if (gliding)
+            {
+                velocity = savedVelocity;
+                gliding = false;
+            }
             MovePlayer();
-            gliding = false;
         }
-        playerAnimator.SetBool("Glide", gliding);
+        playerAnimator.SetBool("Glide", gliding); 
 
         if (Input.GetKeyUp(KeyCode.Space) && velocity.y < 0 && isGrounded)
         {
@@ -57,22 +59,16 @@ public class SquirrelMovement : MovementState
 
         else
         {
-            newPos = playerTransform.position;
-            previousPos = playerTransform.position - velocity;
+            groundCheckTransform.position = playerTransform.position - Vector3.up * 1.05f;
             //velocity *= verticalDrag * Time.fixedDeltaTime;
             //velocity = Vector3.Lerp(velocity, velocity * verticalDrag * Time.fixedDeltaTime, Time.fixedDeltaTime * 10);
             //velocity *= verticalDrag;
             //add movement forward
 
-            float relativeVelocity = playerTransform.InverseTransformDirection(newPos - previousPos).z;
-            //Debug.Log(relativeVelocity);
-            Vector3 forwardSpeed = velocity * Time.fixedDeltaTime * relativeVelocity;
-
-
             //playerTransform.forward = velocity.normalized;
             Vector3 gravityVector = Vector3.zero;
-            gravity = -5f;
-            gravityVector.y += gravity;
+            float newGravity = -5f;
+            gravityVector.y += newGravity;
 
             if (Vector3.Magnitude(velocity * (1 - (Vector3.Dot(playerTransform.forward, Vector3.up) * Time.fixedDeltaTime))) < 100)
                 velocity *= 1 - (Vector3.Dot(playerTransform.forward, Vector3.up) * Time.fixedDeltaTime);
@@ -83,11 +79,9 @@ public class SquirrelMovement : MovementState
                 velocityMagnitude = 100;
             }
 
-            Debug.Log(velocityMagnitude);
-            //Debug.Log(Vector3.Dot(playerTransform.forward, Vector3.up));
-
 
             playerTransform.position += playerTransform.forward * velocityMagnitude * Time.fixedDeltaTime + gravityVector * Time.fixedDeltaTime;
+            savedVelocity = playerTransform.forward * velocityMagnitude + gravityVector;
             //just add drag now
 
 
@@ -95,8 +89,8 @@ public class SquirrelMovement : MovementState
 
             //dv = lastVelocity - velocity;
             //lastVelocity = velocity;
-            previousPos = playerTransform.position;
         }
+        Debug.Log(velocity);
     }
     public override void MovePlayer()
     {
@@ -124,11 +118,6 @@ public class SquirrelMovement : MovementState
 
         //velocity = Quaternion.AngleAxis(Input.GetAxis("Vertical"), playerTransform.right) * velocity;
 
-    }
-
-    public override Vector3 Exit()
-    {
-        return velocity + playerTransform.forward * 40;
     }
 
     //void TestInput()
