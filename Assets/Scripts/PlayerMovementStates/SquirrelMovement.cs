@@ -15,7 +15,12 @@ public class SquirrelMovement : MovementState
 
     public override void LogicUpdate()
     {
+        groundCheckTransform.position = playerTransform.position - Vector3.up * 1.05f;
         isGrounded = Physics.CheckSphere(groundCheckTransform.position, 0.03f);
+
+        Debug.Log(groundCheckTransform.position);
+        Debug.Log(playerTransform.position);
+
         playerAnimator.SetBool("Grounded", isGrounded);
 
         if (Input.GetKey(KeyCode.Space) && !isGrounded)
@@ -59,7 +64,6 @@ public class SquirrelMovement : MovementState
 
         else
         {
-            groundCheckTransform.position = playerTransform.position - Vector3.up * 1.05f;
             //velocity *= verticalDrag * Time.fixedDeltaTime;
             //velocity = Vector3.Lerp(velocity, velocity * verticalDrag * Time.fixedDeltaTime, Time.fixedDeltaTime * 10);
             //velocity *= verticalDrag;
@@ -90,7 +94,7 @@ public class SquirrelMovement : MovementState
             //dv = lastVelocity - velocity;
             //lastVelocity = velocity;
         }
-        Debug.Log(velocity);
+        //Debug.Log(velocity);
     }
     public override void MovePlayer()
     {

@@ -33,6 +33,7 @@ public abstract class MovementState
     public virtual void LogicUpdate()
     {
         isGrounded = Physics.CheckSphere(groundCheckTransform.position, 0.03f);
+
         playerAnimator.SetBool("Grounded", isGrounded);
 
         MovePlayer();
