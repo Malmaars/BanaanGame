@@ -33,6 +33,7 @@ public abstract class MovementState
     public virtual void LogicUpdate()
     {
         isGrounded = Physics.CheckSphere(groundCheckTransform.position, 0.03f);
+
         playerAnimator.SetBool("Grounded", isGrounded);
 
         MovePlayer();
@@ -52,14 +53,16 @@ public abstract class MovementState
 
     public virtual void PhysicsUpdate()
     {
+        groundCheckTransform.position = playerTransform.position - Vector3.up * 1.05f;
+        playerTransform.localRotation = Quaternion.Euler(0, playerTransform.localRotation.eulerAngles.y, 0);
         if (!isGrounded)
         {
             velocity.y += gravity * Time.fixedDeltaTime;
-            playerTransform.localRotation = Quaternion.Euler(0, playerTransform.localRotation.eulerAngles.y, 0);
         }
 
         if (isGrounded && velocity.y <= 0)
         {
+            Debug.Log("GROUNDED");
             velocity.x = 0;
             velocity.z = 0;
             velocity.y = gravity * Time.fixedDeltaTime * 10;
