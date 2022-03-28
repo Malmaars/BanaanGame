@@ -15,8 +15,19 @@ public class SquirrelMovement : MovementState
 
     public override void LogicUpdate()
     {
-        groundCheckTransform.position = playerTransform.position - Vector3.up * 1.05f;
-        isGrounded = Physics.CheckSphere(groundCheckTransform.position, 0.03f);
+        //groundCheckTransform.position = playerTransform.position - Vector3.up * 1.05f;
+        //isGrounded = Physics.CheckSphere(groundCheckTransform.position, 0.03f);
+
+        RaycastHit groundHit;
+        Physics.Raycast(groundCheckTransform.position, Vector3.down, out groundHit, 1);
+        if (groundHit.collider != null)
+        {
+            isGrounded = true;
+        }
+        else
+        {
+            isGrounded = false;
+        }
 
         Debug.Log(groundCheckTransform.position);
         Debug.Log(playerTransform.position);
