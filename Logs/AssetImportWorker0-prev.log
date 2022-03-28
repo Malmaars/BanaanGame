@@ -18,6 +18,7 @@ Logs/AssetImportWorker0.log
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 63743
 Successfully changed project path to: C:/Users/lisax/Desktop/Project Context II - Substainability Game/BanaanGame
 C:/Users/lisax/Desktop/Project Context II - Substainability Game/BanaanGame
@@ -38,11 +39,16 @@ Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 32.73 ms, found 3 plugins.
 >>>>>>> parent of 2bcb704 (Player kan op grond lopen)
 =======
+=======
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 58745
 Successfully changed project path to: C:/Users/simon/Documents/GitHub/BanaanGame
 C:/Users/simon/Documents/GitHub/BanaanGame
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 36.37 ms, found 3 plugins.
+<<<<<<< HEAD
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.23f1 (c5d91304a876)
@@ -62,6 +68,7 @@ Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Mo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
 =======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
@@ -72,9 +79,13 @@ Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,susp
 =======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109,6 +120,8 @@ Domain Reload Profiling:
 		BeginReloadAssembly (2012ms)
 >>>>>>> parent of 2bcb704 (Player kan op grond lopen)
 =======
+=======
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 Registered in 0.001828 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
@@ -120,12 +133,16 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (453ms)
 		BeginReloadAssembly (45ms)
+<<<<<<< HEAD
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -163,9 +180,19 @@ Domain Reload Profiling:
 			RebuildScriptCaches (21ms)
 			SetupLoadedEditorAssemblies (138ms)
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
+		EndReloadAssembly (354ms)
+			LoadAssemblies (44ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (115ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (138ms)
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -176,10 +203,13 @@ Domain Reload Profiling:
 =======
 =======
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 				RefreshPlugins (34ms)
 				BeforeProcessingInitializeOnLoad (13ms)
 				ProcessInitializeOnLoadAttributes (64ms)
 				ProcessInitializeOnLoadMethodAttributes (22ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 =======
@@ -190,12 +220,15 @@ Domain Reload Profiling:
 >>>>>>> parent of 2bcb704 (Player kan op grond lopen)
 =======
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -235,10 +268,14 @@ Registered in 0.526388 seconds.
 =======
 Registered in 0.003702 seconds.
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
+Registered in 0.003702 seconds.
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
+<<<<<<< HEAD
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -294,6 +331,33 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (75ms)
 				ProcessInitializeOnLoadAttributes (191ms)
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.831 seconds
+Domain Reload Profiling:
+	ReloadAssembly (832ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (680ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (285ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 				ProcessInitializeOnLoadMethodAttributes (7ms)
 				AfterProcessingInitializeOnLoad (5ms)
 =======
@@ -308,6 +372,7 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -328,11 +393,17 @@ Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 second
 Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 >>>>>>> parent of 2bcb704 (Player kan op grond lopen)
 Preloading 0 native plugins for Editor in 0.00 ms.
+=======
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 Unloading 1903 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 157.7 MB.
 System memory in use after: 157.8 MB.
 
 Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2335.
+<<<<<<< HEAD
 <<<<<<< HEAD
 Total: 3.037700 ms (FindLiveObjects: 0.179100 ms CreateObjectMapping: 0.265800 ms MarkObjects: 2.527900 ms  DeleteObjects: 0.063700 ms)
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
@@ -350,6 +421,9 @@ System memory in use after: 157.8 MB.
 Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2335.
 Total: 3.037700 ms (FindLiveObjects: 0.179100 ms CreateObjectMapping: 0.265800 ms MarkObjects: 2.527900 ms  DeleteObjects: 0.063700 ms)
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
+Total: 3.037700 ms (FindLiveObjects: 0.179100 ms CreateObjectMapping: 0.265800 ms MarkObjects: 2.527900 ms  DeleteObjects: 0.063700 ms)
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -364,6 +438,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -510,10 +585,13 @@ Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/Terrai
 =======
 =======
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
   path: Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx
   artifactKey: Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx using Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26206f955a9c8a495b68cbc13ace7544') in 0.166265 seconds 
   Import took 0.169372 seconds .
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
   path: Assets/CharacterAnim/PlayerRiggedV1.fbx
@@ -668,11 +746,43 @@ Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2381.
 Total: 2.417400 ms (FindLiveObjects: 0.184300 ms CreateObjectMapping: 0.040100 ms MarkObjects: 2.170300 ms  DeleteObjects: 0.022000 ms)
 >>>>>>> parent of 2bcb704 (Player kan op grond lopen)
 =======
+=======
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.394761 seconds.
+  path: Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx
+  artifactKey: Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx using Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0941a903373c715692fa6926c84ad3b') in 0.080096 seconds 
+  Import took 0.083954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.369766 seconds.
+  path: Assets/CharacterAnim/NewCharacterAnim/all_basemap.png
+  artifactKey: Guid(89e63d088f3761e48b0eb20e2140e179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterAnim/NewCharacterAnim/all_basemap.png using Guid(89e63d088f3761e48b0eb20e2140e179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37cb415f932bba6914a8b2e8deae9c7d') in 0.025943 seconds 
+  Import took 0.030212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx
+  artifactKey: Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx using Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64edf3a8c0f8672048d191ea1da8eaee') in 0.071115 seconds 
+  Import took 0.074991 seconds .
+
+========================================================================
+Received Import Request.
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
   Time since last request: 17.332820 seconds.
   path: Assets/CharacterAnim/NewCharacterAnim/PlayerTexture.mat
   artifactKey: Guid(bc7ec34d9d8196f4b936f07e6ef559bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/CharacterAnim/NewCharacterAnim/PlayerTexture.mat using Guid(bc7ec34d9d8196f4b936f07e6ef559bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98fea2c3b107a47b2f600d70e8d70b4d') in 0.016119 seconds 
   Import took 0.019256 seconds .
+<<<<<<< HEAD
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 
 ========================================================================
@@ -686,7 +796,11 @@ Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/Terrai
 Received Prepare
 Registering precompiled user dll's ...
 <<<<<<< HEAD
+<<<<<<< HEAD
 Registered in 0.003265 seconds.
+=======
+Registered in 0.003492 seconds.
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 =======
 Registered in 0.003492 seconds.
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
@@ -694,6 +808,7 @@ Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
+<<<<<<< HEAD
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -711,10 +826,20 @@ Domain Reload Profiling:
 	ReloadAssembly (783ms)
 		BeginReloadAssembly (106ms)
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Domain Reload Profiling:
+	ReloadAssembly (783ms)
+		BeginReloadAssembly (106ms)
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 			CreateAndSetChildDomain (27ms)
 		EndReloadAssembly (598ms)
@@ -729,10 +854,19 @@ Domain Reload Profiling:
 		EndReloadAssembly (628ms)
 			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
+=======
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (628ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 			SetupTypeCache (211ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (32ms)
 			SetupLoadedEditorAssemblies (248ms)
+<<<<<<< HEAD
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
@@ -754,6 +888,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 <<<<<<< HEAD
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
@@ -763,6 +898,8 @@ System memory in use after: 171.7 MB.
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2383.
 Total: 2.466500 ms (FindLiveObjects: 0.189100 ms CreateObjectMapping: 0.040600 ms MarkObjects: 2.218900 ms  DeleteObjects: 0.016900 ms)
 =======
+=======
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
@@ -771,6 +908,9 @@ System memory in use after: 171.6 MB.
 
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2382.
 Total: 2.472100 ms (FindLiveObjects: 0.203200 ms CreateObjectMapping: 0.051000 ms MarkObjects: 2.198700 ms  DeleteObjects: 0.018400 ms)
+<<<<<<< HEAD
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -785,6 +925,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< HEAD
 <<<<<<< HEAD
 Received Import Request.
   Time since last request: 3271.449694 seconds.
@@ -802,10 +943,16 @@ Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.003210 seconds.
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003210 seconds.
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
+<<<<<<< HEAD
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -823,10 +970,20 @@ Domain Reload Profiling:
 	ReloadAssembly (753ms)
 		BeginReloadAssembly (101ms)
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.753 seconds
+Domain Reload Profiling:
+	ReloadAssembly (753ms)
+		BeginReloadAssembly (101ms)
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 			CreateAndSetChildDomain (29ms)
 		EndReloadAssembly (595ms)
@@ -850,6 +1007,15 @@ Domain Reload Profiling:
 			SetupTypeCache (206ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (31ms)
+=======
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (606ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 			SetupLoadedEditorAssemblies (237ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
@@ -857,6 +1023,9 @@ Domain Reload Profiling:
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (61ms)
 				ProcessInitializeOnLoadAttributes (160ms)
+<<<<<<< HEAD
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (4ms)
@@ -865,7 +1034,11 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 <<<<<<< HEAD
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+=======
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 =======
 Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
@@ -876,12 +1049,18 @@ System memory in use after: 171.7 MB.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2384.
+Total: 2.698400 ms (FindLiveObjects: 0.162400 ms CreateObjectMapping: 0.066000 ms MarkObjects: 2.453400 ms  DeleteObjects: 0.015600 ms)
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2384.
 Total: 2.698400 ms (FindLiveObjects: 0.162400 ms CreateObjectMapping: 0.066000 ms MarkObjects: 2.453400 ms  DeleteObjects: 0.015600 ms)
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
 <<<<<<< HEAD
   Time since last request: 0.000190 seconds.
   path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_mask.tif
@@ -1088,11 +1267,46 @@ Start importing Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx using Guid(f
 
 ========================================================================
 Received Import Request.
+=======
+  Time since last request: 354.169091 seconds.
+  path: Assets/CharacterAnim/NewCharacterAnim/PlayerTexture.mat
+  artifactKey: Guid(bc7ec34d9d8196f4b936f07e6ef559bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterAnim/NewCharacterAnim/PlayerTexture.mat using Guid(bc7ec34d9d8196f4b936f07e6ef559bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25791c877a0a97dd716b7a62dfd14358') in 0.062260 seconds 
+  Import took 0.064916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 286.823935 seconds.
+  path: Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx
+  artifactKey: Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx using Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49528f570f32a330418a5636881d75c7') in 0.082808 seconds 
+  Import took 0.086207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.025005 seconds.
+  path: Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx
+  artifactKey: Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx using Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ad7ec3078f589fa93a30739bb92533') in 0.067722 seconds 
+  Import took 0.070876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.166325 seconds.
+  path: Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx
+  artifactKey: Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx using Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab87be54b385f814cab11df9a391a0e') in 0.070178 seconds 
+  Import took 0.074101 seconds .
+
+========================================================================
+Received Import Request.
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
   Time since last request: 10.678061 seconds.
   path: Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx
   artifactKey: Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx using Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ea5fdf4227ef81292cc5c9fce0c0b2') in 0.061491 seconds 
   Import took 0.064754 seconds .
+<<<<<<< HEAD
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 
 ========================================================================
@@ -2547,18 +2761,9 @@ System memory in use after: 171.9 MB.
 
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2397.
 Total: 2.382500 ms (FindLiveObjects: 0.168400 ms CreateObjectMapping: 0.039800 ms MarkObjects: 2.158700 ms  DeleteObjects: 0.014800 ms)
+=======
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
   Time since last request: 1225.061663 seconds.
@@ -2570,11 +2775,16 @@ Start importing Assets/CharacterAnim/NewCharacterAnim/Animations/NewMovement.con
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.003433 seconds.
+=======
+Registered in 0.004611 seconds.
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -2582,10 +2792,20 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (730ms)
 		BeginReloadAssembly (95ms)
+=======
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.755 seconds
+Domain Reload Profiling:
+	ReloadAssembly (756ms)
+		BeginReloadAssembly (91ms)
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 			CreateAndSetChildDomain (29ms)
 		EndReloadAssembly (589ms)
 			LoadAssemblies (68ms)
@@ -2821,16 +3041,33 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (155ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
 =======
+=======
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (618ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (63ms)
 				ProcessInitializeOnLoadAttributes (162ms)
 				ProcessInitializeOnLoadMethodAttributes (7ms)
+<<<<<<< HEAD
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
+<<<<<<< HEAD
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -2841,6 +3078,8 @@ System memory in use after: 172.0 MB.
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2405.
 Total: 2.683600 ms (FindLiveObjects: 0.202900 ms CreateObjectMapping: 0.043000 ms MarkObjects: 2.414300 ms  DeleteObjects: 0.022500 ms)
 =======
+=======
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
@@ -2849,6 +3088,9 @@ System memory in use after: 171.8 MB.
 
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2387.
 Total: 2.491500 ms (FindLiveObjects: 0.167500 ms CreateObjectMapping: 0.048300 ms MarkObjects: 2.258400 ms  DeleteObjects: 0.016300 ms)
+<<<<<<< HEAD
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -2864,6 +3106,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
 <<<<<<< HEAD
   Time since last request: 51.752600 seconds.
   path: Assets/CharacterAnim/NewCharacterAnim/Animations/Standard Run.anim
@@ -4616,10 +4859,15 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 =======
+=======
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
   Time since last request: 115650.138424 seconds.
   path: Assets/Player.prefab
   artifactKey: Guid(98c82ce8e4ae59b49980ec781912ffea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Player.prefab using Guid(98c82ce8e4ae59b49980ec781912ffea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892736044c76463711b84b04e5deb20d') in 0.507892 seconds 
   Import took 0.550922 seconds .
 
+<<<<<<< HEAD
+>>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
