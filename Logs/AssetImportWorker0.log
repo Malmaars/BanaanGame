@@ -16,6 +16,7 @@ C:/Users/simon/Documents/GitHub/BanaanGame
 Logs/AssetImportWorker0.log
 -srvPort
 <<<<<<< HEAD
+<<<<<<< HEAD
 60965
 Successfully changed project path to: C:/Users/lisax/Desktop/Project Context II - Substainability Game/BanaanGame
 C:/Users/lisax/Desktop/Project Context II - Substainability Game/BanaanGame
@@ -28,6 +29,13 @@ C:/Users/simon/Documents/GitHub/BanaanGame
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 53.28 ms, found 5 plugins.
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
+58745
+Successfully changed project path to: C:/Users/simon/Documents/GitHub/BanaanGame
+C:/Users/simon/Documents/GitHub/BanaanGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 36.37 ms, found 3 plugins.
+>>>>>>> parent of 2bcb704 (Player kan op grond lopen)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.23f1 (c5d91304a876)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -44,15 +52,20 @@ Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Manage
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/etc'
 <<<<<<< HEAD
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
 =======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+>>>>>>> parent of 2bcb704 (Player kan op grond lopen)
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
 <<<<<<< HEAD
 Registered in 0.001852 seconds.
 Native extension for WindowsStandalone target not found
@@ -65,22 +78,31 @@ Domain Reload Profiling:
 		BeginReloadAssembly (46ms)
 =======
 Registered in 0.001824 seconds.
+=======
+Registered in 0.001828 seconds.
+>>>>>>> parent of 2bcb704 (Player kan op grond lopen)
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 40.60 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 33.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.442 seconds
+- Completed reload, in  0.453 seconds
 Domain Reload Profiling:
+<<<<<<< HEAD
 	ReloadAssembly (442ms)
 		BeginReloadAssembly (41ms)
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
+	ReloadAssembly (453ms)
+		BeginReloadAssembly (45ms)
+>>>>>>> parent of 2bcb704 (Player kan op grond lopen)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 		EndReloadAssembly (387ms)
 			LoadAssemblies (44ms)
@@ -92,9 +114,14 @@ Domain Reload Profiling:
 =======
 		EndReloadAssembly (349ms)
 			LoadAssemblies (40ms)
+=======
+		EndReloadAssembly (354ms)
+			LoadAssemblies (44ms)
+>>>>>>> parent of 2bcb704 (Player kan op grond lopen)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (104ms)
+			SetupTypeCache (115ms)
 			ReleaseScriptCaches (0ms)
+<<<<<<< HEAD
 			RebuildScriptCaches (20ms)
 			SetupLoadedEditorAssemblies (149ms)
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
@@ -111,12 +138,24 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (65ms)
 				ProcessInitializeOnLoadMethodAttributes (24ms)
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (138ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (64ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+>>>>>>> parent of 2bcb704 (Player kan op grond lopen)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 <<<<<<< HEAD
 Registered in 0.006467 seconds.
 Begin MonoManager ReloadAssembly
@@ -130,20 +169,28 @@ Domain Reload Profiling:
 		BeginReloadAssembly (116ms)
 =======
 Registered in 0.005600 seconds.
+=======
+Registered in 0.003702 seconds.
+>>>>>>> parent of 2bcb704 (Player kan op grond lopen)
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 39.42 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.092 seconds
+- Completed reload, in  0.831 seconds
 Domain Reload Profiling:
+<<<<<<< HEAD
 	ReloadAssembly (1093ms)
 		BeginReloadAssembly (112ms)
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
+	ReloadAssembly (832ms)
+		BeginReloadAssembly (105ms)
+>>>>>>> parent of 2bcb704 (Player kan op grond lopen)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 <<<<<<< HEAD
@@ -157,17 +204,25 @@ Domain Reload Profiling:
 			SetupLoadedEditorAssemblies (534ms)
 =======
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (932ms)
-			LoadAssemblies (72ms)
+		EndReloadAssembly (680ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
+<<<<<<< HEAD
 			SetupTypeCache (230ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (40ms)
 			SetupLoadedEditorAssemblies (504ms)
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (285ms)
+>>>>>>> parent of 2bcb704 (Player kan op grond lopen)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< HEAD
 				RefreshPlugins (40ms)
 <<<<<<< HEAD
 				BeforeProcessingInitializeOnLoad (65ms)
@@ -177,18 +232,24 @@ Domain Reload Profiling:
 =======
 				BeforeProcessingInitializeOnLoad (66ms)
 				ProcessInitializeOnLoadAttributes (383ms)
+=======
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+>>>>>>> parent of 2bcb704 (Player kan op grond lopen)
 				ProcessInitializeOnLoadMethodAttributes (7ms)
 				AfterProcessingInitializeOnLoad (4ms)
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.91 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+<<<<<<< HEAD
 Unloading 2217 Unused Serialized files (Serialized files now loaded: 0)
 <<<<<<< HEAD
 System memory in use before: 117.2 MB.
@@ -203,6 +264,14 @@ System memory in use after: 176.3 MB.
 Unloading 90 unused Assets to reduce memory usage. Loaded Objects now: 2604.
 Total: 5.278000 ms (FindLiveObjects: 0.463300 ms CreateObjectMapping: 0.123900 ms MarkObjects: 4.337600 ms  DeleteObjects: 0.351000 ms)
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
+Unloading 1903 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.7 MB.
+System memory in use after: 157.8 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2335.
+Total: 3.037700 ms (FindLiveObjects: 0.179100 ms CreateObjectMapping: 0.265800 ms MarkObjects: 2.527900 ms  DeleteObjects: 0.063700 ms)
+>>>>>>> parent of 2bcb704 (Player kan op grond lopen)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -217,6 +286,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
 <<<<<<< HEAD
   path: Assets/textures/dark grass.png
   artifactKey: Guid(506c647fe2ec8064490f54b7f27dc924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -403,146 +473,98 @@ Received Import Request.
   artifactKey: Guid(ac75515e54506de4290ab681010c796f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/CharacterAnim/ybot@Falling To Roll2.fbx using Guid(ac75515e54506de4290ab681010c796f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694dc910173dbb452ec402dd89a26252') in 0.008775 seconds 
   Import took 0.012080 seconds .
+=======
+  path: Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx
+  artifactKey: Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx using Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26206f955a9c8a495b68cbc13ace7544') in 0.166265 seconds 
+  Import took 0.169372 seconds .
+>>>>>>> parent of 2bcb704 (Player kan op grond lopen)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.788682 seconds.
-  path: Assets/Scenes/Banaan1.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Banaan1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d5282d465ea464a46ba248078bb4cb') in 0.004809 seconds 
-  Import took 0.008262 seconds .
+  Time since last request: 50.394761 seconds.
+  path: Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx
+  artifactKey: Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx using Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0941a903373c715692fa6926c84ad3b') in 0.080096 seconds 
+  Import took 0.083954 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.970046 seconds.
-  path: Assets/Scenes/lvl1.unity
-  artifactKey: Guid(ba58d79cdde5c354896e3afb0970eddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/lvl1.unity using Guid(ba58d79cdde5c354896e3afb0970eddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356ddb001ecaea94ba1aab7023614484') in 0.002211 seconds 
-  Import took 0.005382 seconds .
+  Time since last request: 66.369766 seconds.
+  path: Assets/CharacterAnim/NewCharacterAnim/all_basemap.png
+  artifactKey: Guid(89e63d088f3761e48b0eb20e2140e179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterAnim/NewCharacterAnim/all_basemap.png using Guid(89e63d088f3761e48b0eb20e2140e179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37cb415f932bba6914a8b2e8deae9c7d') in 0.025943 seconds 
+  Import took 0.030212 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.113831 seconds.
-  path: Assets/Scenes/lvl1.unity
-  artifactKey: Guid(ba58d79cdde5c354896e3afb0970eddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/lvl1.unity using Guid(ba58d79cdde5c354896e3afb0970eddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd7a8e0b19b3ff60249dd281a2203b1') in 0.001822 seconds 
-  Import took 0.004954 seconds .
+  Time since last request: 0.000301 seconds.
+  path: Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx
+  artifactKey: Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx using Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64edf3a8c0f8672048d191ea1da8eaee') in 0.071115 seconds 
+  Import took 0.074991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.332820 seconds.
+  path: Assets/CharacterAnim/NewCharacterAnim/PlayerTexture.mat
+  artifactKey: Guid(bc7ec34d9d8196f4b936f07e6ef559bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterAnim/NewCharacterAnim/PlayerTexture.mat using Guid(bc7ec34d9d8196f4b936f07e6ef559bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98fea2c3b107a47b2f600d70e8d70b4d') in 0.016119 seconds 
+  Import took 0.019256 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005712 seconds.
+Registered in 0.003492 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.964 seconds
+- Completed reload, in  0.783 seconds
 Domain Reload Profiling:
-	ReloadAssembly (964ms)
-		BeginReloadAssembly (102ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (818ms)
-			LoadAssemblies (67ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (201ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (449ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (368ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.87 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2139 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 187.3 MB.
-System memory in use after: 186.7 MB.
-
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2654.
-Total: 3.113500 ms (FindLiveObjects: 0.194200 ms CreateObjectMapping: 0.075900 ms MarkObjects: 2.468700 ms  DeleteObjects: 0.373800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 97.629965 seconds.
-  path: Assets/Scenes/lvl1.unity
-  artifactKey: Guid(ba58d79cdde5c354896e3afb0970eddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/lvl1.unity using Guid(ba58d79cdde5c354896e3afb0970eddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9a0ea132a770fa414f26357dc59594') in 0.015610 seconds 
-  Import took 0.019103 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005448 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.992 seconds
-Domain Reload Profiling:
-	ReloadAssembly (992ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (783ms)
+		BeginReloadAssembly (106ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (837ms)
-			LoadAssemblies (71ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (628ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (213ms)
+			SetupTypeCache (211ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (456ms)
+			SetupLoadedEditorAssemblies (248ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (376ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (167ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.87 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2139 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.8 MB.
-System memory in use after: 186.8 MB.
+Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.5 MB.
+System memory in use after: 171.6 MB.
 
+<<<<<<< HEAD
 Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 2656.
 Total: 3.166100 ms (FindLiveObjects: 0.233300 ms CreateObjectMapping: 0.117200 ms MarkObjects: 2.680400 ms  DeleteObjects: 0.133900 ms)
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2382.
+Total: 2.472100 ms (FindLiveObjects: 0.203200 ms CreateObjectMapping: 0.051000 ms MarkObjects: 2.198700 ms  DeleteObjects: 0.018400 ms)
+>>>>>>> parent of 2bcb704 (Player kan op grond lopen)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -556,6 +578,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< HEAD
 Received Import Request.
 <<<<<<< HEAD
   Time since last request: 0.000121 seconds.
@@ -587,53 +610,60 @@ Start importing Assets/Scenes/lvl1.unity using Guid(ba58d79cdde5c354896e3afb0970
   Import took 0.019676 seconds .
 
 ========================================================================
+=======
+>>>>>>> parent of 2bcb704 (Player kan op grond lopen)
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005140 seconds.
+Registered in 0.003210 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.949 seconds
+- Completed reload, in  0.753 seconds
 Domain Reload Profiling:
-	ReloadAssembly (949ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (753ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (807ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (606ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (200ms)
+			SetupTypeCache (206ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (441ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (237ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (362ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (160ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.87 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2139 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.8 MB.
-System memory in use after: 186.8 MB.
+Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.6 MB.
+System memory in use after: 171.7 MB.
 
+<<<<<<< HEAD
 Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 2658.
 Total: 2.703400 ms (FindLiveObjects: 0.182300 ms CreateObjectMapping: 0.057000 ms MarkObjects: 2.334300 ms  DeleteObjects: 0.129100 ms)
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2384.
+Total: 2.698400 ms (FindLiveObjects: 0.162400 ms CreateObjectMapping: 0.066000 ms MarkObjects: 2.453400 ms  DeleteObjects: 0.015600 ms)
+>>>>>>> parent of 2bcb704 (Player kan op grond lopen)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -648,6 +678,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
 <<<<<<< HEAD
   Time since last request: 0.000131 seconds.
   path: Assets/models 1/RiverBridge.dae
@@ -700,32 +731,40 @@ Start importing Assets/models 1/GroundGrassColor.png using Guid(3ab3f9f10d784fb4
   artifactKey: Guid(f9b68527955cc9a43b7216d3737aacb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/PlayerMovementStates/MovementState.cs using Guid(f9b68527955cc9a43b7216d3737aacb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb713fcd7f519a1bc45be167fee40c0') in 0.043017 seconds 
   Import took 0.046837 seconds .
+=======
+  Time since last request: 354.169091 seconds.
+  path: Assets/CharacterAnim/NewCharacterAnim/PlayerTexture.mat
+  artifactKey: Guid(bc7ec34d9d8196f4b936f07e6ef559bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterAnim/NewCharacterAnim/PlayerTexture.mat using Guid(bc7ec34d9d8196f4b936f07e6ef559bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25791c877a0a97dd716b7a62dfd14358') in 0.062260 seconds 
+  Import took 0.064916 seconds .
+>>>>>>> parent of 2bcb704 (Player kan op grond lopen)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.250121 seconds.
-  path: Assets/Scripts/PlayerMovementStates/SquirrelMovement.cs
-  artifactKey: Guid(25a41fadcc5d0604cac4372021c17a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovementStates/SquirrelMovement.cs using Guid(25a41fadcc5d0604cac4372021c17a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f8cafb24de6159bda69e36e15efeb2') in 0.004464 seconds 
-  Import took 0.008415 seconds .
+  Time since last request: 286.823935 seconds.
+  path: Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx
+  artifactKey: Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx using Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49528f570f32a330418a5636881d75c7') in 0.082808 seconds 
+  Import took 0.086207 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.306848 seconds.
-  path: Assets/Scripts/PlayerMovement.cs
-  artifactKey: Guid(870b12bb469196948864a0cbc1a1cfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovement.cs using Guid(870b12bb469196948864a0cbc1a1cfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c8e26b685cee453928a16f726548f6') in 0.004629 seconds 
-  Import took 0.008474 seconds .
+  Time since last request: 27.025005 seconds.
+  path: Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx
+  artifactKey: Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx using Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ad7ec3078f589fa93a30739bb92533') in 0.067722 seconds 
+  Import took 0.070876 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.918247 seconds.
-  path: Assets/Scripts/GameManager.cs
-  artifactKey: Guid(a9cbf98ba66596a4a98146df37d78704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameManager.cs using Guid(a9cbf98ba66596a4a98146df37d78704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6656e47b0356a19f3672723bca7c1a') in 0.004950 seconds 
-  Import took 0.008706 seconds .
+  Time since last request: 6.166325 seconds.
+  path: Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx
+  artifactKey: Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx using Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab87be54b385f814cab11df9a391a0e') in 0.070178 seconds 
+  Import took 0.074101 seconds .
 
 ========================================================================
+<<<<<<< HEAD
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.005354 seconds.
@@ -773,18 +812,15 @@ System memory in use after: 186.9 MB.
 Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 2660.
 Total: 3.138900 ms (FindLiveObjects: 0.279500 ms CreateObjectMapping: 0.072100 ms MarkObjects: 2.628900 ms  DeleteObjects: 0.157300 ms)
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
+=======
+Received Import Request.
+  Time since last request: 10.678061 seconds.
+  path: Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx
+  artifactKey: Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterAnim/NewCharacterAnim/Playerrig.fbx using Guid(f145e3813991b3c4cab89a99a93c0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ea5fdf4227ef81292cc5c9fce0c0b2') in 0.061491 seconds 
+  Import took 0.064754 seconds .
+>>>>>>> parent of 2bcb704 (Player kan op grond lopen)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 <<<<<<< HEAD
 Received Import Request.
@@ -804,23 +840,24 @@ Start importing Assets/models 1/Lamppost.dae using Guid(9f5e95b55d65ef045ad7a2df
 =======
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005280 seconds.
+Registered in 0.004611 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.963 seconds
+- Completed reload, in  0.755 seconds
 Domain Reload Profiling:
-	ReloadAssembly (964ms)
-		BeginReloadAssembly (105ms)
+	ReloadAssembly (756ms)
+		BeginReloadAssembly (91ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (31ms)
+<<<<<<< HEAD
 		EndReloadAssembly (809ms)
 			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -899,10 +936,15 @@ Domain Reload Profiling:
 			CreateAndSetChildDomain (28ms)
 		EndReloadAssembly (789ms)
 			LoadAssemblies (64ms)
+=======
+		EndReloadAssembly (618ms)
+			LoadAssemblies (71ms)
+>>>>>>> parent of 2bcb704 (Player kan op grond lopen)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (197ms)
+			SetupTypeCache (208ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (31ms)
+<<<<<<< HEAD
 			SetupLoadedEditorAssemblies (430ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
@@ -980,26 +1022,29 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (32ms)
 			SetupLoadedEditorAssemblies (444ms)
+=======
+			SetupLoadedEditorAssemblies (242ms)
+>>>>>>> parent of 2bcb704 (Player kan op grond lopen)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (365ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (162ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2139 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.8 MB.
-System memory in use after: 186.9 MB.
+Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.6 MB.
+System memory in use after: 171.8 MB.
 
-Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 2666.
-Total: 3.078900 ms (FindLiveObjects: 0.235500 ms CreateObjectMapping: 0.102800 ms MarkObjects: 2.595200 ms  DeleteObjects: 0.144600 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2387.
+Total: 2.491500 ms (FindLiveObjects: 0.167500 ms CreateObjectMapping: 0.048300 ms MarkObjects: 2.258400 ms  DeleteObjects: 0.016300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1013,6 +1058,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< HEAD
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.005646 seconds.
@@ -3373,12 +3419,17 @@ Start importing Assets/CharacterAnim/NewCharacterAnim/Animations/Idle.anim using
   Import took 0.041074 seconds .
 
 ========================================================================
+=======
+>>>>>>> parent of 2bcb704 (Player kan op grond lopen)
 Received Import Request.
-  Time since last request: 0.619901 seconds.
-  path: Assets/CharacterAnim/NewCharacterAnim/Animations/Hard Landing.anim
-  artifactKey: Guid(22d12d2327989354fbd0bd0070a351cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CharacterAnim/NewCharacterAnim/Animations/Hard Landing.anim using Guid(22d12d2327989354fbd0bd0070a351cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0cd517b7bb9423fbaa89e755477622') in 0.011161 seconds 
-  Import took 0.015156 seconds .
+  Time since last request: 115650.138424 seconds.
+  path: Assets/Player.prefab
+  artifactKey: Guid(98c82ce8e4ae59b49980ec781912ffea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player.prefab using Guid(98c82ce8e4ae59b49980ec781912ffea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892736044c76463711b84b04e5deb20d') in 0.507892 seconds 
+  Import took 0.550922 seconds .
 
+<<<<<<< HEAD
 >>>>>>> parent of e98d2d6 (textures van het terrein aapgepast)
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+=======
+>>>>>>> parent of 2bcb704 (Player kan op grond lopen)
