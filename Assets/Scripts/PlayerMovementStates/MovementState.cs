@@ -32,9 +32,33 @@ public abstract class MovementState
 
     public virtual void LogicUpdate()
     {
-        isGrounded = Physics.CheckSphere(groundCheckTransform.position, 0.03f);
+        //we have to change the way the ground is detected
+        //a raycast won't detect a collider if it start from within said collider
+        RaycastHit groundHit;
+        Physics.Raycast(groundCheckTransform.position, Vector3.down, out groundHit, 1f);
+        if (groundHit.collider != null)
+        {
+            isGrounded = true;
+        }
+        else
+        {
+            isGrounded = false;
+        }
+
+
+        //isGrounded = Physics.CheckSphere(groundCheckTransform.position, 0.06f);
 
         playerAnimator.SetBool("Grounded", isGrounded);
+
+        //if (isGrounded)
+        //{
+        //    gravity = -2f;
+        //}
+
+        //else
+        //{
+        //    gravity = -19.62f;
+        //}
 
         MovePlayer();
 
@@ -53,7 +77,7 @@ public abstract class MovementState
 
     public virtual void PhysicsUpdate()
     {
-        groundCheckTransform.position = playerTransform.position - Vector3.up * 1.05f;
+        //groundCheckTransform.position = playerTransform.position - Vector3.up * 1.05f;
         playerTransform.localRotation = Quaternion.Euler(0, playerTransform.localRotation.eulerAngles.y, 0);
         if (!isGrounded)
         {
