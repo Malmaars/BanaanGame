@@ -10,6 +10,7 @@ public class Audio : MonoBehaviour
     public AudioSource PitchedSource;
     public AudioSource ambientSource;
     public AudioSource ambientSourceGlobal;
+    public AudioSource player;
 
 
     private void Awake()
@@ -48,6 +49,17 @@ public class Audio : MonoBehaviour
             ambientSourceGlobal.loop = true;
             ambientSourceGlobal.clip = clip;
             ambientSourceGlobal.Play();
+        }
+    }
+
+    public void WindPlayer(AudioClip clip)
+    {
+        if (!player.isPlaying)
+        {
+            player.Stop();
+            player.loop = true;
+            player.clip = clip;
+            player.Play();
         }
     }
 }
