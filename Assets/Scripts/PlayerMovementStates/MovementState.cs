@@ -7,13 +7,16 @@ public abstract class MovementState
     protected Transform groundCheckTransform;
     protected bool isGrounded;
 
-    protected float gravity = -19.62f;
-    protected float moveSpeed = 30;
+    protected float gravity = -9.8f;
+    protected float moveSpeed = 10;
 
     protected Transform playerTransform;
     protected Transform playerObject;
     protected Animator playerAnimator;
     protected Vector3 velocity;
+    protected float yVelocityMaxSpeed = -60;
+
+    protected Rigidbody playerRb;
 
     Vector3 newPlayerPosition;
 
@@ -24,6 +27,7 @@ public abstract class MovementState
         this.groundCheckTransform = groundCheckTransform;
         this.velocity = velocity;
         this.playerObject = playerObject;
+        playerRb = playerTransform.GetComponent<Rigidbody>();
     }
     public virtual void Enter(Vector3 currentVelocity)
     {
@@ -35,7 +39,7 @@ public abstract class MovementState
         //we have to change the way the ground is detected
         //a raycast won't detect a collider if it start from within said collider
         RaycastHit groundHit;
-        Physics.Raycast(groundCheckTransform.position, Vector3.down, out groundHit, 1f);
+        Physics.Raycast(groundCheckTransform.position, Vector3.down, out groundHit, 0.4f);
         if (groundHit.collider != null)
         {
             isGrounded = true;
@@ -60,6 +64,11 @@ public abstract class MovementState
         //    gravity = -19.62f;
         //}
 
+        if (isGrounded)
+        {
+
+        }
+
         MovePlayer();
 
         if (Input.GetKeyUp(KeyCode.Space) && velocity.y < 0 && isGrounded)
@@ -77,6 +86,7 @@ public abstract class MovementState
 
     public virtual void PhysicsUpdate()
     {
+        playerRb.velocity = Vector3.zero;
         //groundCheckTransform.position = playerTransform.position - Vector3.up * 1.05f;
         playerTransform.localRotation = Quaternion.Euler(0, playerTransform.localRotation.eulerAngles.y, 0);
         if (!isGrounded)
@@ -90,6 +100,11 @@ public abstract class MovementState
             velocity.x = 0;
             velocity.z = 0;
             velocity.y = gravity * Time.fixedDeltaTime * 10;
+        }
+
+        if(velocity.y < yVelocityMaxSpeed)
+        {
+            velocity.y = yVelocityMaxSpeed;
         }
 
         Vector3 moveDirection = (newPlayerPosition - playerTransform.position).normalized * Time.fixedDeltaTime * moveSpeed;

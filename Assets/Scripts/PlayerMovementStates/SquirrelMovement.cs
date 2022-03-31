@@ -19,7 +19,7 @@ public class SquirrelMovement : MovementState
         //isGrounded = Physics.CheckSphere(groundCheckTransform.position, 0.03f);
 
         RaycastHit groundHit;
-        Physics.Raycast(groundCheckTransform.position, Vector3.down, out groundHit, 1);
+        Physics.Raycast(groundCheckTransform.position, Vector3.down, out groundHit, 0.4f);
         if (groundHit.collider != null)
         {
             isGrounded = true;
@@ -28,9 +28,6 @@ public class SquirrelMovement : MovementState
         {
             isGrounded = false;
         }
-
-        Debug.Log(groundCheckTransform.position);
-        Debug.Log(playerTransform.position);
 
         playerAnimator.SetBool("Grounded", isGrounded);
 
@@ -133,6 +130,12 @@ public class SquirrelMovement : MovementState
 
         //velocity = Quaternion.AngleAxis(Input.GetAxis("Vertical"), playerTransform.right) * velocity;
 
+    }
+
+    public override Vector3 Exit()
+    {
+        playerAnimator.SetBool("Glide", false);
+        return base.Exit();
     }
 
     //void TestInput()

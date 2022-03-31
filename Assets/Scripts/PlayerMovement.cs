@@ -21,19 +21,24 @@ public class PlayerMovement
 
     bool isGrounded;
 
+    bool isPaused;
+
     MovementStateMachine stateMachine;
     FrogMovement frog;
     SquirrelMovement squirrel;
 
+    GameObject radialMenu;
 
 
-    public PlayerMovement(Transform playerparent, Transform playerobject, Transform groundChecker, CinemachineFreeLook myCam, List<ParticleSystem> frogParticles)
+
+    public PlayerMovement(Transform playerparent, Transform playerobject, Transform groundChecker, CinemachineFreeLook myCam, List<ParticleSystem> frogParticles, GameObject radialmenu)
     {
         playerParent = playerparent;
         playerObject = playerobject;
         playerAnimator = playerobject.GetComponent<Animator>();
         groundCheckTransform = groundChecker;
         myCamera = myCam;
+        radialMenu = radialmenu;
         this.frogParticles = frogParticles;
     }
     // Start is called before the first frame update
@@ -55,10 +60,37 @@ public class PlayerMovement
     {
         stateMachine.CurrentState.LogicUpdate();
 
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Tab))
         {
-            //switch classes
-            SwitchMovement();
+            //pause game
+            //start movement select screen
+            Time.timeScale = 0.1f;
+            Time.fixedDeltaTime = Time.timeScale * .02f;
+            isPaused = true;
+            radialMenu.SetActive(true);
+            Cursor.lockState = CursorLockMode.Confined;
+            //start switch menu
+        }
+
+        if(Input.GetKeyUp(KeyCode.Tab))
+        {
+            Time.timeScale = 1;
+            Time.fixedDeltaTime = Time.timeScale * .02f;
+            isPaused = false;
+            radialMenu.SetActive(false);
+
+            if (Input.mousePosition.x >= Screen.width / 2)
+            {
+                stateMachine.ChangeState(squirrel);
+            }
+
+            else
+            {
+                stateMachine.ChangeState(frog);
+            }
+
+            Cursor.lockState = CursorLockMode.Locked;
+            //end switch menu and switch state
         }
     }
 
