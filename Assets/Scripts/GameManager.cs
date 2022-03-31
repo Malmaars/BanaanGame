@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
     public CinemachineFreeLook playerCam;
     public List<ParticleSystem> frogParticleSystems;
 
+    public GameObject radialmenu;
+
     //[Header("Customizable Player Values")]
 
 
@@ -21,7 +23,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = new PlayerMovement(playerP,playerO, groundCheck, playerCam, frogParticleSystems);
+        player = new PlayerMovement(playerP,playerO, groundCheck, playerCam, frogParticleSystems, radialmenu);
         player.Initialize();
         ObjectStats[] allObjects = FindObjectsOfType<ObjectStats>();
 

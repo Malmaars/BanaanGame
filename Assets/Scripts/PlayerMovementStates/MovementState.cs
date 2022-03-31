@@ -14,6 +14,9 @@ public abstract class MovementState
     protected Transform playerObject;
     protected Animator playerAnimator;
     protected Vector3 velocity;
+    protected float yVelocityMaxSpeed = -150;
+
+    protected Rigidbody playerRb;
 
     Vector3 newPlayerPosition;
 
@@ -24,6 +27,7 @@ public abstract class MovementState
         this.groundCheckTransform = groundCheckTransform;
         this.velocity = velocity;
         this.playerObject = playerObject;
+        playerRb = playerTransform.GetComponent<Rigidbody>();
     }
     public virtual void Enter(Vector3 currentVelocity)
     {
@@ -77,6 +81,7 @@ public abstract class MovementState
 
     public virtual void PhysicsUpdate()
     {
+        playerRb.velocity = Vector3.zero;
         //groundCheckTransform.position = playerTransform.position - Vector3.up * 1.05f;
         playerTransform.localRotation = Quaternion.Euler(0, playerTransform.localRotation.eulerAngles.y, 0);
         if (!isGrounded)
@@ -90,6 +95,11 @@ public abstract class MovementState
             velocity.x = 0;
             velocity.z = 0;
             velocity.y = gravity * Time.fixedDeltaTime * 10;
+        }
+
+        if(velocity.y < yVelocityMaxSpeed)
+        {
+            velocity.y = yVelocityMaxSpeed;
         }
 
         Vector3 moveDirection = (newPlayerPosition - playerTransform.position).normalized * Time.fixedDeltaTime * moveSpeed;

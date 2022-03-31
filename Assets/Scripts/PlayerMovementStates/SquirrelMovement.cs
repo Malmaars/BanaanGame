@@ -135,6 +135,12 @@ public class SquirrelMovement : MovementState
 
     }
 
+    public override Vector3 Exit()
+    {
+        playerAnimator.SetBool("Glide", false);
+        return base.Exit();
+    }
+
     //void TestInput()
     //{
     //    float roll = Input.GetAxis("Horizontal");
