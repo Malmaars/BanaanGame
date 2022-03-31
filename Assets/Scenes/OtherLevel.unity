@@ -936,7 +936,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 740869232}
-  m_LocalRotation: {x: -0.039721772, y: -0.29375938, z: 0.012218798, w: -0.9549756}
+  m_LocalRotation: {x: -0.039721772, y: -0.29375938, z: 0.012218796, w: -0.9549756}
   m_LocalPosition: {x: 0.000061035156, y: 0, z: -0.000061035156}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2485,6 +2485,9 @@ MonoBehaviour:
   ambientSource: {fileID: 1516566911}
   ambientSourceGlobal: {fileID: 1716820715}
   player: {fileID: 7559977878835115833}
+  animator: {fileID: 7559977879462018119}
+  gliding: 0
+  grounded: 0
 --- !u!82 &1716820713
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2858,6 +2861,120 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f145e3813991b3c4cab89a99a93c0418, type: 3}
   m_PrefabInstance: {fileID: 7559977879269741193}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1907252805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907252804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53f0e202b240e24409fef6b4c927d285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipsFootsteps:
+  - {fileID: 8300000, guid: afc400f852c762f48b4e98c0805f7888, type: 3}
+  - {fileID: 8300000, guid: a08fcb5e6edd524419b778d0c9d4d77a, type: 3}
+  - {fileID: 8300000, guid: 15252fd53d2bac34bbe1b38807b8a180, type: 3}
+  otherAudioClips:
+  - {fileID: 8300000, guid: 647a6b7e4961c794dbddb2c2dadb6567, type: 3}
+--- !u!82 &1907252806
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907252804}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &1967821949 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 483918908983999531, guid: 2111d2eee3769bf45925d85467473212, type: 3}
@@ -3214,6 +3331,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   glidingAudio: {fileID: 8300000, guid: d3228d8bc1a869840a08fba4667b4681, type: 3}
   gliding: 0
+  jumping: 0
+  grounded: 0
+  charging: 0
+  frogJump: {fileID: 8300000, guid: a704a5befe4e4d844bf215e4bf155b7c, type: 3}
+  chargingBuildup: {fileID: 8300000, guid: a6176216e0e975441be5c52549625cb9, type: 3}
+  chargingLoop: {fileID: 8300000, guid: 20f81c73a6d799e49ad2b8239c7ac391, type: 3}
   animator: {fileID: 7559977879462018119}
 --- !u!82 &7559977878835115833
 AudioSource:
@@ -3226,8 +3349,8 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_PlayOnAwake: 0
+  m_Volume: 0.398
   m_Pitch: 1
   Loop: 1
   Mute: 0

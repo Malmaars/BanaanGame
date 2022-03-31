@@ -12,10 +12,25 @@ public class Audio : MonoBehaviour
     public AudioSource ambientSourceGlobal;
     public AudioSource player;
 
+    public Animator animator;
+    public bool gliding;
+    public bool grounded;
+
 
     private void Awake()
     {
         instance = this;
+    }
+
+    public void FixedUpdate()
+    {
+        gliding = animator.GetBool("Glide");
+        grounded = animator.GetBool("Grounded");
+
+        if (grounded)
+        {
+            StopAudio();
+        }
     }
 
     public void Play(AudioClip clip)
@@ -43,7 +58,7 @@ public class Audio : MonoBehaviour
 
     public void PlayOnLoop(AudioClip clip)
     {
-        if (!PitchedSource.isPlaying)
+        if (!ambientSourceGlobal.isPlaying)
         {
             ambientSourceGlobal.Stop();
             ambientSourceGlobal.loop = true;
@@ -54,13 +69,19 @@ public class Audio : MonoBehaviour
 
     public void WindPlayer(AudioClip clip)
     {
-        if (!player.isPlaying)
+        if (!player.isPlaying && !grounded)
         {
             player.Stop();
             player.loop = true;
             player.clip = clip;
             player.Play();
         }
+    }
+
+    public void StopAudio()
+    {
+        player.loop = false;
+        player.Stop();
     }
 }
 
