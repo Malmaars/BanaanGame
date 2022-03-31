@@ -7,14 +7,14 @@ public abstract class MovementState
     protected Transform groundCheckTransform;
     protected bool isGrounded;
 
-    protected float gravity = -19.62f;
-    protected float moveSpeed = 30;
+    protected float gravity = -9.8f;
+    protected float moveSpeed = 10;
 
     protected Transform playerTransform;
     protected Transform playerObject;
     protected Animator playerAnimator;
     protected Vector3 velocity;
-    protected float yVelocityMaxSpeed = -150;
+    protected float yVelocityMaxSpeed = -60;
 
     protected Rigidbody playerRb;
 
@@ -39,7 +39,7 @@ public abstract class MovementState
         //we have to change the way the ground is detected
         //a raycast won't detect a collider if it start from within said collider
         RaycastHit groundHit;
-        Physics.Raycast(groundCheckTransform.position, Vector3.down, out groundHit, 1f);
+        Physics.Raycast(groundCheckTransform.position, Vector3.down, out groundHit, 0.4f);
         if (groundHit.collider != null)
         {
             isGrounded = true;
@@ -63,6 +63,11 @@ public abstract class MovementState
         //{
         //    gravity = -19.62f;
         //}
+
+        if (isGrounded)
+        {
+
+        }
 
         MovePlayer();
 
