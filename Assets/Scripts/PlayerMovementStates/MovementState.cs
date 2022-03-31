@@ -8,13 +8,13 @@ public abstract class MovementState
     protected bool isGrounded;
 
     protected float gravity = -9.8f;
-    protected float moveSpeed = 10;
+    protected float moveSpeed = 4.5f;
 
     protected Transform playerTransform;
     protected Transform playerObject;
     protected Animator playerAnimator;
     protected Vector3 velocity;
-    protected float yVelocityMaxSpeed = -60;
+    protected float yVelocityMaxSpeed = -30;
 
     protected Rigidbody playerRb;
 
@@ -140,7 +140,7 @@ public abstract class MovementState
 
     public virtual void Jump()
     {
-        velocity.y = -gravity * Time.fixedDeltaTime * 20;
+        //velocity.y = -gravity * Time.fixedDeltaTime * 20;
     }
 
     public virtual void ResetVelocity()

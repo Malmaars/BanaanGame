@@ -118,14 +118,14 @@ public class SquirrelMovement : MovementState
 
         //vertical input tilts the player up and down
         //x rotation maybe
-        float xRotation = Input.GetAxis("Vertical") * Time.deltaTime * 40;
+        float xRotation = Input.GetAxis("Vertical") * Time.deltaTime * 60;
 
 
         ////horizontal rotation skewers them, like a plane
         float zRotation = Input.GetAxis("Horizontal") * Time.deltaTime * 200;
 
 
-        playerTransform.Rotate(new Vector3(xRotation, 0, zRotation));
+        playerTransform.Rotate(new Vector3(xRotation, 0, -zRotation));
         //playerTransform.localRotation = Quaternion.Euler(xRotation, playerTransform.localRotation.eulerAngles.y, zRotation);
 
         //velocity = Quaternion.AngleAxis(Input.GetAxis("Vertical"), playerTransform.right) * velocity;

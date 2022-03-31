@@ -76,7 +76,7 @@ public class FrogMovement : MovementState
     {
         frogJumpCharge += Time.deltaTime;
         //Debug.Log(frogJumpCharge);
-        if (frogJumpCharge > 0.5f)
+        if (frogJumpCharge > 0f)
         {
             playerAnimator.SetBool("Charging", true);
             if (!particleLevels[0].isPlaying)
@@ -104,8 +104,8 @@ public class FrogMovement : MovementState
         //I want to be able to follow up without charging
         //Just hit jump again when you land for a giving time frame
         Debug.Log(frogJumpCharge);
-        velocity = playerObject.forward * Time.fixedDeltaTime * 400 * frogJumpCharge;
-        velocity.y = -gravity * Time.fixedDeltaTime * 40 * frogJumpCharge;
+        velocity = playerObject.forward * Time.fixedDeltaTime * 300 * frogJumpCharge;
+        velocity.y = -gravity * Time.fixedDeltaTime * 55 * frogJumpCharge;
 
         playerAnimator.SetBool("FrogJump", true);
         playerAnimator.SetBool("Charging", false);
