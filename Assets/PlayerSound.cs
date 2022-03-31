@@ -15,8 +15,12 @@ public class PlayerSound : MonoBehaviour
 
     private bool audioIsPlaying = false;
 
+    public Animator animator;
+
     void FixedUpdate()
     {
+        gliding = animator.GetBool("Glide");
+
         if (gliding)
         {
             if (!audioIsPlaying)
