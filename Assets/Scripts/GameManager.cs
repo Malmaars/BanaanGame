@@ -24,8 +24,10 @@ public class GameManager : MonoBehaviour
 
     public float timeBetweenLetters;
     public float timeBetweenSentences;
+    public float timeBetweenConversations;
     float dialogueTimer;
     float sentenceTimer;
+    float conversationTimer;
 
     //[Header("Customizable Player Values")]
 
@@ -51,10 +53,6 @@ public class GameManager : MonoBehaviour
         //}
 
         // player.UpdateVariables(swingAbleObjects);
-
-        char[] test = new char[]{ 'H', 'E', 'L', 'L' };
-        string testString = new string(test);
-        Debug.Log(testString);
     }
 
     // Update is called once per frame
@@ -67,6 +65,13 @@ public class GameManager : MonoBehaviour
     {
         player.PhysicsUpdate();
 
+
+        if(conversationTimer >= timeBetweenConversations)
+        {
+            isConversationGoing = true;
+            InitiateConversation();
+            conversationTimer = 0;
+        }
 
         if (isConversationGoing)
         {
@@ -103,6 +108,11 @@ public class GameManager : MonoBehaviour
             }
 
             dialogueTimer += Time.deltaTime;
+        }
+
+        else
+        {
+            conversationTimer += Time.deltaTime;
         }
     }
 

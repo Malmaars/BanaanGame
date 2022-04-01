@@ -86,9 +86,9 @@ public class SquirrelMovement : MovementState
                 velocity *= 1 - (Vector3.Dot(playerTransform.forward, Vector3.up) * Time.fixedDeltaTime);
             //velocity.y += gravity;
             float velocityMagnitude = Vector3.Magnitude(velocity);
-            if (velocityMagnitude > 100)
+            if (velocityMagnitude > 60)
             {
-                velocityMagnitude = 100;
+                velocityMagnitude = 60;
             }
 
 
