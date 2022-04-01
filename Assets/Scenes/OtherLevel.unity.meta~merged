@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Scenes/OtherLevel.unity.meta~merged
 guid: 508c94bebb626744ea307af1857458b0
+=======
+guid: 86fbdfb9d7e5c4336a74fcc892aabb3e
+>>>>>>> origin/Geluid:Assets/UnityTimer-1.1.0/Example/TimerExampleScene.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

@@ -80,6 +80,11 @@ public class GameManager : MonoBehaviour
                 sentenceTimer += Time.deltaTime;
                 if (sentenceTimer > timeBetweenSentences)
                 {
+                    if (conversationScript.currentLine == conversationScript.DifferentLines[conversationScript.currentConversation].oneConversation.Length)
+                    {
+                        currentSentence = " ";
+                    }
+
                     conversationScript.currentLine++;
                     InitiateConversation();
                     currentSentenceNumber = 0;

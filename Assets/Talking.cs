@@ -8,6 +8,7 @@ public class Talking : MonoBehaviour
 {
 
     public TextMeshProUGUI textToBeEdited;
+    public TextMeshProUGUI whosTalking;
     public int currentConversation;
     public int currentLine;
     [Serializable]
@@ -24,16 +25,19 @@ public class Talking : MonoBehaviour
     }
     public Conversation[] DifferentLines;
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
-        
+        if(DifferentLines[currentConversation].oneConversation[currentLine].speaker == 0)
+        {
+            whosTalking.text = "You";
+            textToBeEdited.color = new Color(0.4946155f, 0.8962264f, 0.5157735f);
+        }
+
+        if (DifferentLines[currentConversation].oneConversation[currentLine].speaker == 1)
+        {
+            whosTalking.text = "Instructor";
+            textToBeEdited.color = new Color(0.8980392f, 0.6814728f, 0.4941176f);
+        }
     }
 }

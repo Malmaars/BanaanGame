@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SimonLevel.unity
+    guid: 333a077a247522644986b15e27ee63e9
+  - enabled: 1
+    path: Assets/Scenes/CutsceneScene.unity
+    guid: c9645b64aaaf8224991c642e637e7de5
   m_configObjects: {}

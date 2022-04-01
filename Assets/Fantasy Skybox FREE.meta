@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Fantasy Skybox FREE.meta
 guid: e451ec5aa43a653409ff9ee11a564f48
+=======
+guid: 9d87bb1c3acb9fe478dc38fadf2cfdce
+>>>>>>> origin/Geluid:Assets/UnityTimer-1.1.0.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

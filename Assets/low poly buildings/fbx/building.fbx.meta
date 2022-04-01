@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: d5023b4c56166f24786821ce1c601987
+=======
+guid: 4d146274c371f3549906ef5fc09e11cc
+>>>>>>> origin/Geluid
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -41,8 +45,13 @@ ModelImporter:
     sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
+<<<<<<< HEAD
     importCameras: 0
     importLights: 0
+=======
+    importCameras: 1
+    importLights: 1
+>>>>>>> origin/Geluid
     fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
