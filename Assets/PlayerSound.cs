@@ -77,7 +77,7 @@ public class PlayerSound : MonoBehaviour
      
         if (jumping)
         {
-            if (!jumpAudioIsPlaying)
+            if (charging)
             {
                 Audio.instance.Play(frogJump);
                 jumpAudioIsPlaying = true;

@@ -21,12 +21,14 @@ public class Footsteps : MonoBehaviour
     {
         AudioClip clip = GetRandomClip();
         audioSource.PlayOneShot(clip);
+        Debug.Log("step bugged");
     }
 
     private void Landing()
     {
         AudioClip clip = GetLandingClip();
         audioSource.PlayOneShot(clip);
+        
     }
 
     private AudioClip GetRandomClip()
