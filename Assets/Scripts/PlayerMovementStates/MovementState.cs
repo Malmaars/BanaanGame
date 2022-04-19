@@ -14,7 +14,7 @@ public abstract class MovementState
     protected Transform playerObject;
     protected Animator playerAnimator;
     protected Vector3 velocity;
-    protected float yVelocityMaxSpeed = -30;
+    protected float yVelocityMaxSpeed = -20;
 
     protected Rigidbody playerRb;
 

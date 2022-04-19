@@ -80,12 +80,14 @@ public class GameManager : MonoBehaviour
                 sentenceTimer += Time.deltaTime;
                 if (sentenceTimer > timeBetweenSentences)
                 {
-                    if (conversationScript.currentLine == conversationScript.DifferentLines[conversationScript.currentConversation].oneConversation.Length)
+                    conversationScript.currentLine++;
+
+                    if (conversationScript.currentLine > conversationScript.DifferentLines[conversationScript.currentConversation].oneConversation.Length - 1)
                     {
-                        currentSentence = " ";
+                        conversationScript.currentConversation++;
+                        conversationScript.currentLine = 0;
                     }
 
-                    conversationScript.currentLine++;
                     InitiateConversation();
                     currentSentenceNumber = 0;
                     dialogueTimer = 0;
@@ -95,6 +97,8 @@ public class GameManager : MonoBehaviour
 
             if (dialogueTimer >= timeBetweenLetters && sentenceTimer == 0)
             {
+                conversationScript.noOneTalking = false;
+
                 if (ReadOutText() == false)
                 {
 
@@ -118,18 +122,21 @@ public class GameManager : MonoBehaviour
         else
         {
             conversationTimer += Time.deltaTime;
+
+            if (conversationTimer >= timeBetweenConversations)
+            {
+                currentSentence = " ";
+                conversationScript.noOneTalking = true;
+                isConversationGoing = true;
+                InitiateConversation();
+                conversationTimer = 0;
+            }
         }
     }
 
     void InitiateConversation()
     {
         currentSentence = conversationScript.DifferentLines[conversationScript.currentConversation].oneConversation[conversationScript.currentLine].line;
-
-        if(conversationScript.currentLine > conversationScript.DifferentLines[conversationScript.currentConversation].oneConversation.Length - 1)
-        {
-            conversationScript.currentConversation++;
-            conversationScript.currentLine = 0;
-        }
     }
 
     bool ReadOutText()

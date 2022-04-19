@@ -7968,7 +7968,7 @@ MonoBehaviour:
   radialmenu: {fileID: 1346276168}
   timeBetweenLetters: 0.05
   timeBetweenSentences: 3
-  timeBetweenConversations: 6
+  timeBetweenConversations: 5
 --- !u!4 &595507732
 Transform:
   m_ObjectHideFlags: 0
@@ -10231,8 +10231,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 740869232}
-  m_LocalRotation: {x: -0.15311663, y: -0.28991678, z: 0.04704679, w: -0.9435519}
-  m_LocalPosition: {x: 0.000030517578, y: 0, z: -0.000061035156}
+  m_LocalRotation: {x: -0.467965, y: -0.5301026, z: 0.46796516, w: -0.5301025}
+  m_LocalPosition: {x: -3.3379517, y: 3, z: 0.97265625}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 677256832}
@@ -10405,7 +10405,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753435069}
-  m_LocalRotation: {x: -0.13525161, y: -0.2841588, z: -0.01793766, w: -0.9490201}
+  m_LocalRotation: {x: 0.06785307, y: -0.58162683, z: 0.1183657, w: 0.8019325}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -10533,6 +10533,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d6dc1764360b6744a968d6521c0d8e43, type: 3}
   m_PrefabInstance: {fileID: 755383789}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &758170248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 758170251}
+  - component: {fileID: 758170250}
+  - component: {fileID: 758170249}
+  m_Layer: 0
+  m_Name: ColliderSolution
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &758170249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758170248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b23bf3cdb391fe74495e7e5d77ebfc51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &758170250
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758170248}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2521, y: 43, z: 3415.4}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &758170251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758170248}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -29.85, z: 539}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &765129208
 GameObject:
   m_ObjectHideFlags: 0
@@ -22255,8 +22312,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1703080205}
-  m_LocalRotation: {x: 0.13592975, y: 0.29073387, z: -0.0417674, w: 0.94617784}
-  m_LocalPosition: {x: 351.10544, y: 40.334, z: 528.70764}
+  m_LocalRotation: {x: 0.11570898, y: -0.5753767, z: 0.08265907, w: 0.8054319}
+  m_LocalPosition: {x: 405.22797, y: 45.91, z: 530.21735}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 354730138}
@@ -22299,7 +22356,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1707354273}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 351.10544, y: 39.084, z: 528.70764}
+  m_LocalPosition: {x: 405.22797, y: 44.66, z: 530.21735}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 740869233}
@@ -22416,7 +22473,7 @@ MonoBehaviour:
     m_Radius: 0.5
   - m_Height: 1
     m_Radius: 3
-  - m_Height: -0.8
+  - m_Height: -0.5
     m_Radius: 0.5
   m_LegacyHeadingBias: 3.4028235e+38
   m_Rigs:
@@ -24902,7 +24959,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1897491674}
-  m_LocalRotation: {x: -0.15153329, y: -0.28291476, z: -0.009729383, w: -0.94704926}
+  m_LocalRotation: {x: 0.08425993, y: -0.580816, z: 0.1263208, w: 0.7997476}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -25935,22 +25992,8 @@ MonoBehaviour:
   whosTalking: {fileID: 331739302}
   currentConversation: 0
   currentLine: 0
+  noOneTalking: 0
   DifferentLines:
-  - oneConversation:
-    - speaker: 1
-      line: "Today is the flooding. It\u2019s common here to work in new ranger by
-        letting them initiate the flooding. So that\u2019s your goal today."
-    - speaker: 0
-      line: The flooding?
-    - speaker: 1
-      line: "It\u2019s a special day every year where we purposefully flood the city,
-        to experience life as a frog."
-    - speaker: 0
-      line: "Won\u2019t that harm people and damage the buildings?"
-    - speaker: 1
-      line: "Nah the city is built with this in mind, don\u2019t worry about it.
-        Be sure to come down to the city when you\u2019re finished to partake in
-        the flooding as well. It\u2019s fun I promise."
   - oneConversation:
     - speaker: 1
       line: 'Is this thing on? '
@@ -25988,8 +26031,8 @@ MonoBehaviour:
       line: Try holding the jump button (Space) to jump higher
   - oneConversation:
     - speaker: 1
-      line: "Today is the flooding. It\u2019s common here to work in new ranger by
-        letting them initiate the flooding. So that\u2019s your goal today."
+      line: "Today is the flooding. It\u2019s common here to work in new rangers
+        by letting them initiate the flooding. So that\u2019s your goal today."
     - speaker: 0
       line: The flooding?
     - speaker: 1
@@ -26001,6 +26044,49 @@ MonoBehaviour:
       line: "Nah the city is built with this in mind, don\u2019t worry about it.
         Be sure to come down to the city when you\u2019re finished to partake in
         the flooding as well. It\u2019s fun I promise."
+  - oneConversation:
+    - speaker: 1
+      line: "Great! You\u2019re doing great! Can you see a large (dam)? It looks
+        like\u2026 Well.. it\u2019s a big wall that blocks water. Can you see that?"
+    - speaker: 0
+      line: Yeah, I think I see it. Is that where I need to go?
+    - speaker: 1
+      line: "Yep. Up there you\u2019ll be able to start the flooding. You can get
+        there quick by gliding. I believe you already have some experience in that
+        field, so you won\u2019t need my help."
+    - speaker: 1
+      line: (Hold tab to change movement modes)
+    - speaker: 1
+      line: (Hold space while in gliding mode to glide)
+  - oneConversation:
+    - speaker: 1
+      line: Oh did you see that.. Nevermind you passed it.
+  - oneConversation:
+    - speaker: 0
+      line: "Hey \u2026 I have a question"
+    - speaker: 1
+      line: Yeah?
+    - speaker: 0
+      line: "Why does the suit glide? Frogs can\u2019t fly can they?"
+    - speaker: 1
+      line: "There\u2019s actually a couple of frogs that can glide. They truly embody
+        all of life."
+  - oneConversation:
+    - speaker: 1
+      line: What region are you from exactly? Like what animal is important to you
+        and your culture?
+    - speaker: 0
+      line: Pelicans. They can see everything from the sky, and are often portrayed
+        holding the ocean in their beak.
+    - speaker: 1
+      line: Pelicans.. That sounds really pretty.
+  - oneConversation:
+    - speaker: 0
+      line: Why exactly is it that I need to start the flooding?
+    - speaker: 0
+      line: "As you know by now, frogs are very important here. Frogs grow up independently,
+        and have to survive on their own. That\u2019s what you are gonna show us
+        today. That you are strong enough to be a part of our community."
 --- !u!1 &1967183096 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f532fa8c86508bb4bb9b8b935ad16e00, type: 3}
@@ -28861,7 +28947,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7559977878835115828}
   m_LocalRotation: {x: -0, y: 0.63031936, z: -0, w: -0.7763361}
-  m_LocalPosition: {x: 352.79, y: 39.334, z: 531.19}
+  m_LocalPosition: {x: 402.39, y: 44.91, z: 531.19}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children:
   - {fileID: 7559977878896647990}
